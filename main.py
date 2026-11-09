@@ -7,7 +7,7 @@ def main():
         clear_screen()
         game = HangmanGame()
 
-        print("🎯 ¡Bienvenido al Juego del Ahorcado!\n")
+        print("¡Bienvenido al Juego del Ahorcado!\n")
 
         # Bucle principal de la partida
         while not game.is_game_over():
@@ -24,9 +24,9 @@ def main():
         game.display_status()
 
         if game.is_won():
-            print("\n🎉 ¡Felicidades! ¡Has adivinado la palabra correcta!\n")
+            print("\n ¡Felicidades! ¡Has adivinado la palabra correcta!\n")
         else:
-            print(f"\n❌ ¡Te has quedado sin intentos! La palabra era: '{game.secret_word}'\n")
+            print(f"\n ¡Te has quedado sin intentos! La palabra era: '{game.secret_word}'\n")
 
         # Preguntar si quiere jugar de nuevo
         play_again = input("¿Quieres jugar de nuevo? (s/n): ").strip().lower()
