@@ -1,4 +1,3 @@
-import random
 from utils import get_random_word
 
 HANGMAN_ART = [
@@ -71,7 +70,6 @@ HANGMAN_ART = [
 class HangmanGame:
     def __init__(self, filename: str = "wordlist.txt", max_attempts: int = 6):
         self.max_attempts = max_attempts
-        self.attempts_left = max_attempts
         self.incorrect_attempts = 0
         self.guessed_letters = set()
         self.secret_word = get_random_word(filename)

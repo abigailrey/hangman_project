@@ -9,6 +9,7 @@ Implementación interactiva en consola del clásico juego del ahorcado desarroll
 - **Visualización en ASCII:** Gráfico progresivo del ahorcado según los intentos fallidos acumulados.
 - **Diseño modular y POO:** Lógica desacoplada mediante clases, clases auxiliares y módulos independientes.
 
+
 ##  Estructura del Proyecto
 
 ```text
