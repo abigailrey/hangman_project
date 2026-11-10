@@ -1,4 +1,4 @@
-# Juego del Ahorcado (Hangman)
+# Juego del Ahorcado (Cabrera Juan, Gilarde Romina, Rey Abigail)
 
 Implementación interactiva en consola del clásico juego del ahorcado desarrollada en Python. El juego selecciona palabras o frases de forma aleatoria a partir de un archivo de texto y permite al usuario adivinar letra por letra dentro de un límite de 6 intentos fallidos.
 
